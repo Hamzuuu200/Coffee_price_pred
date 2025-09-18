@@ -1,3 +1,4 @@
+# trigger redeploy
 import streamlit as st
 import pickle
 import seaborn as sns
@@ -44,3 +45,4 @@ ax.set_ylabel("Spending")
 ax.set_title("Average Spending by Coffee & Payment Type")
 
 st.pyplot(fig)
+
