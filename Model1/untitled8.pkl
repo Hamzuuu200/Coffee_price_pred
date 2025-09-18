@@ -103,6 +103,9 @@ import joblib
 joblib.dump(model, "coffee_price_predictor.pkl")
 
 print("Model saved successfully!")
+import pickle
+pickle.dump(model, open("untitled8.pkl", "wb"))
+
 
 
 # In[ ]:
