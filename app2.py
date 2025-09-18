@@ -29,7 +29,8 @@ if st.button("Predict Spending"):
 st.subheader("💹 Spending by Coffee Type and Payment Method")
 
 # Load dataset for plotting
-df = pd.read_csv("C:/Users/Ch. Hamza/Downloads/index_1.csv")
+df = pd.read_csv("index_1.csv")
+
 
 # Clean dataset similar to ML preprocessing
 df_clean = df.dropna(subset=['money', 'cash_type'])
@@ -45,5 +46,6 @@ ax.set_ylabel("Spending")
 ax.set_title("Average Spending by Coffee & Payment Type")
 
 st.pyplot(fig)
+
 
 
