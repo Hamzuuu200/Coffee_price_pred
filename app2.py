@@ -6,9 +6,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # --- Load model and encoders ---
-model = pickle.load(open("untitled8.pkl", "rb"))
-le_cash = pickle.load(open("cash_encoder.pkl", "rb"))
-le_coffee = pickle.load(open("coffee_encoder.pkl", "rb"))
+model = pickle.load(open("Model1/untitled8.pkl", "rb"))
+le_cash = pickle.load(open("Model1/cash_encoder.pkl", "rb"))
+le_coffee = pickle.load(open("Model1/coffee_encoder.pkl", "rb"))
 
 st.title("💰 Coffee Spending Predictor")
 
@@ -45,4 +45,5 @@ ax.set_ylabel("Spending")
 ax.set_title("Average Spending by Coffee & Payment Type")
 
 st.pyplot(fig)
+
 
