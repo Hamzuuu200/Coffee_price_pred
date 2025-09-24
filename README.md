@@ -45,22 +45,23 @@ Suggestions:
 1)How to run the app
 ## How to Run
 
-1. Clone or download the repository.
-2. Install required packages:
+1) Clone or download the repository.
+2) Install required packages:
 
 pip install -r requirements.txt
-3. Run the Streamlit app:
+3) Run the Streamlit app:
 
-streamlit run app.py
-4. Enter values in the app interface to see predictions.
+streamlit run app2.py
+4) Enter values in the app interface to see predictions.
 
 
 File descriptions:
 ## Project Files
 
-* `app.py` – Main Streamlit app.
+* `app2.py` – Main Streamlit app.
 * `model.pkl` – Trained machine learning model.
 * `le_coffee.pkl` – Label encoder for coffee types.
 * `le_cash.pkl` – Label encoder for payment methods.
+
 
 
