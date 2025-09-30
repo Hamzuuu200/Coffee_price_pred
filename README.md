@@ -28,11 +28,7 @@ The Coffee Spending Predictor App predicts how much a customer is likely to spen
 
 ---
 
-## **Screenshots**
 
-*(Screenshots of the app showing input, prediction, and graphs)*
-
----
 
 ## **Future Improvements**
 
@@ -62,6 +58,7 @@ File descriptions:
 * `model.pkl` – Trained machine learning model.
 * `le_coffee.pkl` – Label encoder for coffee types.
 * `le_cash.pkl` – Label encoder for payment methods.
+
 
 
 
