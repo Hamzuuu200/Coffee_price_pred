@@ -54,10 +54,11 @@ streamlit run app2.py
 File descriptions:
 ## Project Files
 
-* `app2.py` – Main Streamlit app.
-* `model.pkl` – Trained machine learning model.
+* `Streamlit_web_app.py` – Main Streamlit app.
+* `Coffee_pred_code.pkl` – Trained machine learning model.
 * `le_coffee.pkl` – Label encoder for coffee types.
 * `le_cash.pkl` – Label encoder for payment methods.
+
 
 
 
